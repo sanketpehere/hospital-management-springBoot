@@ -79,7 +79,7 @@ public class DoctorController {
     // like: http://localhost:7799/doctor/apis/updatePatch/1?newName=AdeshUpdated&newEmail=adeshupdated@gmail.com
     // check the params name, they are as same as the params we wrote in method
 
-    // @RequestParam takes the input int parameter query
+    // @RequestParam takes the input in the parameter query
     @GetMapping("/test")
     public String test() {
         return "Working";
